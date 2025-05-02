@@ -47,10 +47,3 @@ We serve the converted log file via a simple HTTP server on WSL and then add it 
 </figure>
 
 ---
-
-## 5. Verify Data Ingestion
-
-In Splunk’s Search & Reporting app, run:
-
-```splunk
-index=ms17 | head 5
